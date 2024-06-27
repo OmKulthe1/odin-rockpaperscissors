@@ -39,6 +39,7 @@ function getRand(min, max) {
   
   function playRound(humanChoice, computerChoice) {
     if (humanChoice === computerChoice) {
+        alert("Round Tied!");
       console.log("Round tied!");
     } else if ((humanChoice === 'rock' && computerChoice === 'paper') ||
       (humanChoice === 'paper' && computerChoice === 'scissors') ||
